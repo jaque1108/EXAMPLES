@@ -1,0 +1,25 @@
+/*imagen fondo, opacidad, abarque toda la pantalla con background-size*/
+
+.seccion1{
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("fondo.png");
+  filter: contrast(1);
+  background-size: cover;
+  height: 200px;
+}
+
+/*imagen fondo, opacidad, abarque toda la pantalla sin background-size*/
+
+.seccion2{
+  margin-top: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("fondo.png");
+  filter: contrast(1);
+  height: 200px;
+}
+
+
+/* Alinear Elementos horizontalmente*/
+
+element{
+	display: inline-block;
+	display: flex;
+}
